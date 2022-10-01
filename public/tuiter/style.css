@@ -1,0 +1,12 @@
+.wd-body-background {
+    background-color: black;
+    margin-left: 16px;
+}
+
+.wd-border-color {
+    border: solid 0.1px rgba(47, 51, 54);
+}
+
+.wd-explore-font {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
