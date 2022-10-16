@@ -252,3 +252,17 @@ input[type="text"], textarea {
      border-bottom: solid 1px rgba(110, 118, 125, 0.5);
 }
 
+.wd-interaction {
+    font-size: 16px;
+    color: lightgray;
+}
+
+.wd-like {
+    font-size: 16px;
+    color: red;
+}
+
+.wd-bottom-radius {
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
