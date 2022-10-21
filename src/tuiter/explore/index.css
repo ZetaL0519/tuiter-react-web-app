@@ -1,0 +1,65 @@
+.wd-tabs li {
+   display: inline;
+}
+
+.wd-tabs {
+   padding-left: 0px;
+}
+
+.wd-selected {
+   border-bottom: 2px blue solid;
+   padding-bottom: 20px;
+}
+
+.wd-nudge-up {
+   bottom: 18px;
+   left: 25px;
+}
+
+.wd-bottom-2 {
+   bottom: 2px;
+}
+
+.wd-bottom-4 {
+   bottom: 4px;
+}
+
+.wd-post-with-image {
+    width: 70%;
+    float: left;
+}
+
+.wd-image-container {
+    width: 23%;
+    height: 130px;
+    float: right;
+}
+
+
+.wd-topic {
+    font-size: 14px;
+    color: gray;
+    width: 100%;
+    height: auto;
+}
+
+.wd-author , .wd-content {
+    width: 100%;
+    font-size: 16px;
+    height: auto;
+    font-weight: bold;
+}
+
+.wd-time{
+    color: gray;
+    font-size: 14px;
+}
+
+.wd-posts-image-container{
+    width: 25%;
+    float: right;
+}
+
+.wd-post-image {
+    border-radius: 10px;
+}
