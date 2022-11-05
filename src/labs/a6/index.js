@@ -3,7 +3,6 @@ import Styles from "./styles";
 import TodoList from "./todo/todo-list.js";
 import ConditionalOutput
   from "./conditional-output";
-import Nav from "../../nav";
 
 function Assignment6() {
  return (
