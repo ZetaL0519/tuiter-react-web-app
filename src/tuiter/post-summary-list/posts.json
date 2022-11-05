@@ -1,4 +1,5 @@
-[{ "_id": 123, "topic": "Web Development", "userName": "ReactJS",
+[
+  { "_id": 123, "topic": "Web Development", "userName": "ReactJS",
   "title": "React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs",
   "time": "2h",   "image": "reactLogo.png", "tweets": "" },
   { "_id": 234, "topic": "",   "userName": "JavaScript",
