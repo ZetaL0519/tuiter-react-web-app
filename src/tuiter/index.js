@@ -1,6 +1,5 @@
 import React from "react";
 import {Routes, Route} from "react-router";
-import {Outlet} from "react-router-dom";
 import NavigationSidebar from "./navigation-sidebar";
 import WhoToFollowList from "./who-to-follow-list";
 import ExploreComponent from "./explore";
@@ -11,8 +10,6 @@ import whoReducer
   from "./reducers/who-reducer";
 import profileReducer from './reducers/profile-reducer'
 import tuitsReducer from "./reducers/tuits-reducer";
-import { configureStore }
-  from '@reduxjs/toolkit';
 import {combineReducers, createStore} from "redux"
 import {Provider} from "react-redux";
 
