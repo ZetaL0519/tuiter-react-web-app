@@ -2,7 +2,7 @@
   {
     "_id": 123,
     "topic": "Web Development",
-    "profileImg": "../images/reactLogo.png",
+    "image": "../images/reactLogo.png",
     "username": "ReactJS",
     "time": "4d",
     "title": "React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs",
@@ -11,13 +11,14 @@
     "replies": 54,
     "retuits": 4638,
     "likes": 533,
+    "dislikes": 34,
     "handle": "@ReactJS",
     "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
   },
   {
     "_id": 234,
     "topic": "Space",
-    "profileImg": "../images/Starship.webp",
+    "image": "../images/Starship.webp",
     "username": "SpaceX",
     "time": "2h",
     "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
@@ -26,6 +27,7 @@
     "replies": 123,
     "retuits": 432,
     "likes": 2345,
+    "dislikes": 54,
     "handle": "@spacex",
     "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
   },
@@ -41,6 +43,7 @@
     "replies": 156,
     "retuits": 482,
     "likes": 646,
+    "dislikes": 48,
     "handle": "@spacex",
     "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
   }

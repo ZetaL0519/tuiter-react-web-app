@@ -1,11 +1,23 @@
 import React, {useState} from "react";
 import {useDispatch} from 'react-redux';
+import {createTuitThunk}
+  from "../../services/tuits-thunks";
 
 const WhatsHappening = () => {
  let [whatsHappening, setWhatsHappening] = useState('');
  const dispatch = useDispatch();
+ const currentUser = {
+     "username": "NASA",
+     "handle": "@nasa",
+     "image": "nasa.png",
+     "time": "2s"
+ };
  const tuitClickHandler = () => {
-   dispatch({type: 'create-tuit', tuit: whatsHappening});
+     const newTuit = {
+        ...currentUser,
+       tuit: whatsHappening
+     }
+     dispatch(createTuitThunk(newTuit));
  }
  return (
  <>
@@ -21,10 +33,10 @@ const WhatsHappening = () => {
 
         <div className="row mt-2 mb-2">
           <div className='col-10' style={{color:"#5bc0de"}}>
-            <i className="fa fa-image m-2"></i>
-            <i className="fa fa-chart-area m-2"></i>
-            <i className="fa fa-smile m-2"></i>
-            <i className="fa fa-calendar m-2"></i>
+            <i className="fa fa-image me-2"></i>
+            <i className="fa fa-chart-area me-2"></i>
+            <i className="fa fa-smile me-2"></i>
+            <i className="fa fa-calendar me-2"></i>
           </div>
           <div className="col-2 float-right pb-2">
             <button className="btn btn-primary btn-block rounded-pill" onClick={tuitClickHandler}> Tweet </button>

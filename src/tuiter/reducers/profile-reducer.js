@@ -1,30 +1,17 @@
-import profile from "../data/profile.json";
+import {createSlice} from "@reduxjs/toolkit";
 
-const profileReducer = (state = profile, action) => {
-    switch (action.type) {
-        case "update-profile":
-            return {...state, ...action.profile};
-        default:
-            return state;
+import profile from "../data/profile.json"
+
+
+const profileSlice = createSlice({
+    name: "profile",
+    initialState: profile,
+    reducers: {
+        editProfile(state, action) {
+            Object.assign(state, action.payload);
+        }
     }
-};
+})
 
-export default profileReducer;
-
-
-//export default profileReducer;
-
-//import {createSlice} from "@reduxjs/toolkit";
-//import profile from '../data/profile.json';
-//
-//const profileSlice = createSlice({
-//    name: "profile",
-//    initialState: profile,
-//    reducers: {
-//        updateProfile(state, action) {
-//            state = action.payload
-//        }
-//    }
-//});
-//export const {updateProfile} = profileSlice.actions;
-//export default profileSlice.reducer;
+export const {editProfile} = profileSlice.actions;
+export default profileSlice.reducer;

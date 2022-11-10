@@ -1,46 +1,45 @@
+import React from "react";
 import {useDispatch} from "react-redux";
-import {likeTuit, unlikeTuit} from "../reducers/tuits-reducer.js"
+
+import {updateTuitThunk} from "../../services/tuits-thunks";
 
 const TuitStats = ({tuit}) => {
     const dispatch = useDispatch();
-    const likeTuitHandler = (tuit) => {
-        dispatch(likeTuit(tuit));
-    };
-
-    const unlikeTuitHandler = (tuit) => {
-        dispatch(unlikeTuit(tuit));
-    };
 
     return (
         <>
-            <div className="col-3 wd-icon-size">
+            <div className="col wd-icon-size">
                 <span>
                 <i className="far fa-comment mx-2 fg-color-gray"></i>{tuit.comments}
                 </span>
             </div>
 
-            <div className="col-3 wd-icon-size">
+            <div className="col wd-icon-size">
                 <span>
                     <i className="fa fa-retweet mx-2 fg-color-gray"></i>{tuit.retuits}
                 </span>
             </div>
 
-            <div className="col-3 wd-icon-size">
+            <div className="col">
+                <i onClick={() => dispatch(updateTuitThunk({
+                    ...tuit,
+                    likes: tuit.likes + 1
+                }))}
+                   className="bi bi-heart-fill me-2 text-danger"></i>
+                {tuit.likes}
+            </div>
+            <div className="col">
+                <i onClick={() => {
+                dispatch(updateTuitThunk({
 
-                {
-                tuit.liked && <span onClick={() =>unlikeTuitHandler(tuit)}>
-                    <i className="fa fa-heart mx-2 fg-color-red"></i> {tuit.likes}
-                </span>
-                }
-                {
-                !tuit.liked && <span onClick={() => likeTuitHandler(tuit)}>
-                     <i className="fa fa-heart mx-2 fg-color-gray"></i> {tuit.likes}
-                </span>
-                }
-
+                    ...tuit,
+                    dislikes: tuit.dislikes + 1
+                }))} }
+                    className="fa fa-thumbs-down me-2"></i>
+                {tuit.dislikes}
             </div>
 
-            <div className="col-3 wd-icon-size">
+            <div className="col wd-icon-size">
                 <i className="fa fa-share-alt mx-2 fg-color-gray"></i>
             </div>
         </>
