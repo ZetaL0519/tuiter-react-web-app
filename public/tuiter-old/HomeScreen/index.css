@@ -1,0 +1,268 @@
+.wd-body-background {
+    background-color: black;
+}
+
+.wd-icon-text {
+    color: rgb(110, 118, 125);
+}
+
+.wd-left-margin {
+    margin-left: 16px;
+}
+
+.wd-search-bar {
+    border-radius: 50px;
+    height: 40px;
+    margin: 0px 12px 10px 16px;
+    width: 60px;
+}
+
+.wd-search-icon {
+    background-color: white;
+    color: lightgray;
+    border-radius: 50px;
+    height: 40px;
+}
+
+
+input[type="text"], textarea {
+    width: 90%;
+    height: 40px;
+    border-radius: 50px;
+}
+
+
+
+.navbar-nav .nav-link {
+  color:  rgb(75, 74, 74);
+}
+
+.navbar-nav > .active > a {
+    color: white;
+    border-bottom: 5px solid rgba(0, 132, 255, 0.87);
+}
+
+
+.wd-image-text{
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+    color: black;
+    font-size: xxx-large;
+    font-size: bold;
+}
+
+.wd-image{
+    width: 100%;
+    height: auto;
+}
+
+.wd-gear {
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+.wd-tab {
+    margin: 0px 15px;
+}
+
+.wd-tab-float {
+    width: 16.66%;
+    float: left;
+}
+
+.wd-tab-padding {
+    padding: 16px 16px;
+}
+
+.wd-tab-border {
+    border-bottom: solid 3px rgba(110, 118, 125, 0.5);
+    margin-bottom: 10px;
+}
+
+.wd-tab-font-style {
+    color: rgb(110, 118, 125);
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.wd-tab-font-style-highlight {
+    color: rgb(29, 161, 242);
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.wd-tab-border-highlight {
+    border-bottom: solid 5px rgb(29, 161, 242);
+}
+
+.float-done {
+    clear: both;
+}
+
+.wd-suggested-post-font {
+    font-size: 13px;
+}
+
+.wd-suggested-post-border {
+    border-bottom: solid 0.1px rgba(110, 118, 125, 0.5);
+}
+
+.wd-suggest-margin {
+    margin-top: 8px;
+    padding-bottom: 8px;
+}
+
+.wd-post-topic, .wd-post-date {
+    font-size: 13px;
+    color:rgb(110, 118, 125);
+    margin-bottom: 2px;
+}
+
+.wd-post-title, .wd-post-author{
+    color:white;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+
+.wd-post-text {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.wd-post-container{
+    height: auto;
+}
+
+.wd-post-number-of-tweets{
+    font-size: 13px;
+    color:rgb(110, 118, 125);
+}
+.wd-post {
+    color: white;
+    height: 130px;
+    margin-left: 16px;
+    margin-right: 16px;
+    overflow: hidden;
+    display: block;
+}
+
+.wd-post-with-image {
+    width: 70%;
+    float: left;
+}
+
+.wd-image-container {
+    width: 23%;
+    height: 130px;
+    float: right;
+}
+
+.wd-post-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 40px;
+    padding: 16px;
+}
+
+.list-group-item.active{
+    font-size: bold;
+    color: white;
+}
+
+.wd-topic {
+    font-size: 14px;
+    color: gray;
+    width: 100%;
+    height: auto;
+}
+
+.wd-author , .wd-content {
+    width: 100%;
+    font-size: 16px;
+    height: auto;
+    font-weight: bold;
+}
+
+.wd-time{
+    color: gray;
+    font-size: 14px;
+}
+
+.wd-posts-image-container{
+    width: 25%;
+    float: right;
+}
+
+.wd-post-image {
+    border-radius: 10px;
+}
+
+.wd-bg-gray {
+    background-color: rgba(29,34,37,0.87);
+}
+
+.wd-list-group-override {
+    border-radius: 20px;
+}
+
+.wd-profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+
+.wd-profile-pic-container{
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+
+.wd-profile-name{
+    width: 100%;
+    font-size: 12px;
+    color: black;
+}
+
+.wd-follow-info{
+    width: 80%;
+    height: 100%;
+}
+
+.wd-follow{
+    border-radius: 20px;
+    right: 6px;
+    top:17%;
+}
+
+.wd-handle-name{
+    font-size: 12px;
+    width: 100%;
+    color: gray;
+}
+
+.wd-custom-border {
+    border: solid 1px rgba(110, 118, 125, 0.5);
+}
+
+.wd-nav-border {
+     border-bottom: solid 1px rgba(110, 118, 125, 0.5);
+}
+
+.wd-interaction {
+    font-size: 16px;
+    color: lightgray;
+}
+
+.wd-like {
+    font-size: 16px;
+    color: red;
+}
+
+.wd-bottom-radius {
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}

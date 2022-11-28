@@ -1,0 +1,17 @@
+
+  {
+    "_id": 1,
+    "firstName": "Zoe",
+    "lastName": "Lee",
+    "handle": "zoe.lee",
+    "profileImg": "../images/zoeAvatar.png",
+    "bannerImg": "../images/starship.jpg",
+    "bio": "Grad Student @ Northeastern University, CS Align, Jogging",
+    "website": "https://github.com/ZetaL0519",
+    "location": "Seattle, WA",
+    "dateOfBirth": "1998-05-19",
+    "dateJoined": "09/2013",
+    "followingCnt": 305,
+    "followerCnt": 278,
+    "tuits": 556
+  }

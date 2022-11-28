@@ -1,0 +1,21 @@
+.wd-profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+}
+
+.fg-color-gray {
+    color: gray;
+}
+
+.fg-style-bold {
+    font-weight: bold;
+}
+
+.fg-color-red {
+    color: red;
+}
+
+.wd-icon-size {
+    font-size: 14px;
+}
