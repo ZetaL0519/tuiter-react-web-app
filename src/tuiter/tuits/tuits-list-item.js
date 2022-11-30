@@ -27,7 +27,7 @@ const TuitListItem = ({
             <div className="list-group-item">
                 <div className="row">
                     <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 mt-1">
-                        <img src={`/images/${tuit.image}`} alt="" className="wd-profile-pic"/>
+                        <img src={tuit.image} alt="" className="wd-profile-pic"/>
                     </div>
 
                     <div className="col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-sm-9 mt-1 px-1">
